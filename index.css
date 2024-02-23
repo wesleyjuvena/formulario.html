@@ -1,16 +1,60 @@
 body{
     background-color: black;
-    color: beige;
+    color: blue;
+    background-image: url(./IMAGENS/Santos-2-aspect-ratio-512-320.webp );
+    background-repeat: no-repeat;
+    background-position : 500PX;
+    background-image: linear-gradient();
+    
+}
+
+label{
+    color: bisque;
+}
+
+
+
+.form-academia{
+text-align: center;
+margin-top: 200px;
+
+
+}
+
+h1, h2{
+    text-align: center;
+    font-size: 50px;
+}
+
+h1{
+    font-size: 20px;
+}
+
+.container{
+    text-align: center;
+    color: brown;
 }
 
 label{
     color: blue;
 }
 
-h1{
+.form-academia-input{
+    color: brown;
+    background-color: brown;
+}
+
+.form-academia > input::placeholder{
     color: brown;
 }
 
-h2{
-    color: chartreuse;
+.form-academia>label{
+    color: brown;
+    
+
+}
+
+.DDD{
+    color: brown;
+    background-color: brown;
 }
